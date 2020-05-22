@@ -416,7 +416,7 @@ func (bs *Bitswap) ReceiveMessage(ctx context.Context, p peer.ID, incoming bsmsg
 	if len(iblocks) > 0 {
 		bs.updateReceiveCounters(iblocks)
 		for _, b := range iblocks {
-			log.Debugf("[recv] block; cid=%s, peer=%s", b.Cid(), p)
+			log.Debugf("[recv] block testString; cid=%s, peer=%s", b.Cid(), p)
 		}
 	}
 
